@@ -1,0 +1,94 @@
+/* 
+------------------------------/  C O D E   R E S E T  /------------------------------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #fff;
+  --color2: #111;
+  --color3: ;
+}
+
+/* ::selection {
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color2);
+  background-color: var(--color1);
+}
+
+a:active {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 
+------------------------------/  W E B S I T E   S T Y L I N G  /------------------------------
+*/
+
+/* 
+__________/  N A V B A R  /__________
+*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 50px 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: var(--color1);
+  letter-spacing: 1px;
+}
+
+.navbar__links {
+  margin-left: auto;
+}
+
+.navbar__link {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* 
+__________/  H E R O  /__________
+*/
+
+.hero {
+  height: 800px;
+  background-color: #140b38;
+}
+
+/*
+------------------------------/  U T I L I T Y  C L A S S E S  /------------------------------
+*/
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* 
+------------------------------/  M E D I A   Q U E R R I E S  /------------------------------
+*/
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
