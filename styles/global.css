@@ -60,6 +60,62 @@ __________/  N A V B A R  /__________
   margin: 0 10px;
 }
 
+#button {
+  display: none;
+  margin-left: auto;
+}
+
+#bars {
+  z-index: 99;
+  display: flex;
+  position: relative;
+  width: 25px;
+  height: 3px;
+  background: var(--color1);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(255, 101, 47, .2);
+  transition: all 0.5s ease-in-out;
+}
+
+#bars::before,
+#bars::after {
+  content: '';
+  z-index: 99;
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background: var(--color1);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(255, 101, 47, .2);
+  transition: all 0.5s ease-in-out;
+}
+
+#bars::before {
+  z-index: 99;
+  transform: translateY(-8px);
+}
+
+#bars::after {
+  z-index: 99;
+  transform: translateY(8px);
+}
+
+.open #bars {
+  z-index: 99;
+  background: transparent;
+  box-shadow: none;
+}
+
+.open #bars::before {
+  z-index: 99;
+  transform: rotate(45deg);
+}
+
+.open #bars::after {
+  z-index: 99;
+  transform: rotate(-45deg);
+}
+
 /* 
 __________/  H E R O  /__________
 */
@@ -83,12 +139,15 @@ __________/  H E R O  /__________
   text-decoration: underline;
 }
 
-/* 
+/*
 ------------------------------/  M E D I A   Q U E R R I E S  /------------------------------
 */
 
-/* @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  } */
+@media only screen and (max-width: 1200px) {
+  .navbar__links {
+    display: none;
+  }
+  #button {
+    display: block;
+  }
+}
