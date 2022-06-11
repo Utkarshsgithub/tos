@@ -9,9 +9,10 @@
 }
 
 :root {
-  --color1: #fff;
-  --color2: #111;
+  --color1: #0f0f0f;
+  --color2: rgb(248, 248, 248);
   --color3: ;
+  --lr-padding: 200px;
 }
 
 /* ::selection {
@@ -43,12 +44,16 @@ __________/  N A V B A R  /__________
 .navbar {
   display: flex;
   align-items: center;
-  padding: 50px 100px;
+  padding: 60px var(--lr-padding);
   position: fixed;
   top: 0;
   width: 100%;
-  color: var(--color1);
+  color: var(--color2);
   letter-spacing: 1px;
+}
+
+.navbar__logo {
+  height: 50px;
 }
 
 .navbar__links {
@@ -56,7 +61,6 @@ __________/  N A V B A R  /__________
 }
 
 .navbar__link {
-  font-weight: bold;
   margin: 0 10px;
 }
 
@@ -121,8 +125,25 @@ __________/  H E R O  /__________
 */
 
 .hero {
-  height: 800px;
-  background-color: #140b38;
+  height: 1000px;
+  background-color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px var(--lr-padding);
+}
+
+.hero__text {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero__heading {
+  font-size: 6rem;
+  text-align: center;
 }
 
 /*
@@ -137,6 +158,17 @@ __________/  H E R O  /__________
 
 .link:hover {
   text-decoration: underline;
+}
+
+.button {
+  padding: 20px 60px;
+  background-color: var(--color2);
+  color: var(--color1);
+  font-size: 24px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 60px;
 }
 
 /*
