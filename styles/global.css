@@ -145,10 +145,11 @@ __________/  H E R O  /__________
 }
 
 .hero__heading {
-  font-size: 6rem;
+  font-size: 7.5rem;
   text-align: center;
-  width: 900px;
-  letter-spacing: -4px;
+  width: 1240px;
+  line-height: 125px;
+  letter-spacing: -3px;
 }
 
 /*
@@ -193,7 +194,7 @@ __________/  N A V B A R  /__________
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1310px) {
   .navbar {
     padding: 60px;
   }
@@ -203,20 +204,37 @@ __________/  N A V B A R  /__________
 __________/  H E R O  /__________
 */
 
+@media only screen and (max-width: 1600px) {
+  .hero__heading {
+    font-size: 6rem;
+    text-align: center;
+    width: 900px;
+    letter-spacing: -4px;
+  }
+}
+
 @media only screen and (max-width: 1025px) {
   .hero__heading {
     font-size: 5rem;
     width: 750px;
+    line-height: 92px;
   }
   .hero {
     padding: 60px;
   }
+  .button {
+    margin-top: 50px;
+  }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 870px) {
   .hero__heading {
     font-size: 4rem;
     width: 575px;
+    line-height: 80px;
+  }
+  .button {
+    margin-top: 45px;
   }
 }
 
