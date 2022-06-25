@@ -1,4 +1,4 @@
-// ____________/  H A M B U R G E R  /____________
+// ____________/  N A V B A R  /____________
 
 const menu = document.getElementById('menu');
 const button = document.getElementById('button');
@@ -8,11 +8,11 @@ button.addEventListener('click', () => {
     if (!menuOpen) {
         button.classList.add('open');
         menuOpen = true;
-        // menu.style.transform = 'translateX(0%)';
+        menu.style.transform = 'translateX(0%)';
     } else {
         button.classList.remove('open');
         menuOpen = false;
-        // menu.style.transform = 'translateX(-100%)'
+        menu.style.transform = 'translateX(100%)'
     }
 })
 
