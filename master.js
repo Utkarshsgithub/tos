@@ -15,3 +15,9 @@ button.addEventListener('click', () => {
         // menu.style.transform = 'translateX(-100%)'
     }
 })
+
+window.addEventListener('scroll', function(){
+    let navbar = document.getElementById('navbar')
+    console.log(navbar.classList)
+    navbar.classList.toggle('navbar--scroll', window.scrollY > 400)
+})

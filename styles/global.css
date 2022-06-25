@@ -52,6 +52,11 @@ __________/  N A V B A R  /__________
   letter-spacing: 1px;
 }
 
+.navbar--scroll {
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 40px var(--lr-padding);
+}
+
 .navbar__logo {
   height: 50px;
 }
@@ -149,7 +154,7 @@ __________/  H E R O  /__________
   text-align: center;
   width: 1240px;
   line-height: 125px;
-  letter-spacing: -3px;
+  letter-spacing: -4px;
 }
 
 /*
@@ -167,14 +172,41 @@ __________/  H E R O  /__________
 }
 
 .button {
-  padding: 20px 60px;
+  padding: 15px 60px;
   background-color: var(--color2);
   color: var(--color1);
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 40px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: -.5px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.button--hero {
   margin-top: 60px;
+}
+
+.section {
+  background-color:#d6174c;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section__heading {
+  font-size: 6rem;
+  letter-spacing: -3.5px;
+  line-height: 95px;
+  font-weight: 600;
+}
+
+.section__desc {
+  margin: 25px 0;
+  width: 600px;
+  font-weight: 500;
 }
 
 /*
@@ -222,7 +254,7 @@ __________/  H E R O  /__________
   .hero {
     padding: 60px;
   }
-  .button {
+  .button--hero {
     margin-top: 50px;
   }
 }
@@ -233,7 +265,7 @@ __________/  H E R O  /__________
     width: 575px;
     line-height: 80px;
   }
-  .button {
+  .button--hero {
     margin-top: 45px;
   }
 }
@@ -256,7 +288,7 @@ __________/  H E R O  /__________
   .hero__text {
     align-items: stretch;
   }
-  .button {
+  .button--hero {
     margin-top: 35px;
     font-size: 18px;
     letter-spacing: 0.3px;
@@ -281,8 +313,56 @@ __________/  H E R O  /__________
     width: 318px;
     line-height: 46px;
   }
-  .button {
+  .button--hero {
     margin-top: 30px;
     padding: 16px 24px;
+  }
+}
+
+/* 
+__________/  S E C T I O N  /__________
+*/
+
+
+@media only screen and (max-width: 1310px) {
+  .section {
+    padding: 100px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .section__heading {
+    font-size: 4rem;
+    line-height: 75px;
+  }
+  .section__desc {
+    font-weight: 400;
+    margin-top: 12.5px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .section {
+    padding: 100px 60px;
+  }
+  .button--section {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    padding: 16px 28px;
+    cursor: none;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .section {
+    padding: 100px 30px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .section__heading {
+    font-size: 3rem;
+    line-height: 60px;
   }
 }
