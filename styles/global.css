@@ -197,6 +197,52 @@ __________/  H E R O  /__________
   letter-spacing: -4px;
 }
 
+/* 
+__________/  S E C T I O N  /__________
+*/
+
+.section {
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section__heading {
+  font-size: 6rem;
+  letter-spacing: -3.5px;
+  line-height: 95px;
+  font-weight: 600;
+}
+
+.section__desc {
+  margin: 25px 0;
+  width: 600px;
+  font-weight: 500;
+}
+
+.section--red {
+  background-color:#ee2f4c;
+}
+
+.section--blue {
+  background-color:#1a61e9 ;
+}
+
+/* 
+__________/  B  R A N D S  /__________
+*/
+
+.brands {
+  padding: 70px 200px;
+  background-color: var(--color2);
+  color: var(--color1);
+}
+
+.brands__heading {
+  font-weight: 500;
+}
+
 /*
 ------------------------------/  U T I L I T Y  C L A S S E S  /------------------------------
 */
@@ -226,27 +272,6 @@ __________/  H E R O  /__________
 
 .button--hero {
   margin-top: 60px;
-}
-
-.section {
-  background-color:#d6174c;
-  padding: 200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.section__heading {
-  font-size: 6rem;
-  letter-spacing: -3.5px;
-  line-height: 95px;
-  font-weight: 600;
-}
-
-.section__desc {
-  margin: 25px 0;
-  width: 600px;
-  font-weight: 500;
 }
 
 /*
@@ -310,7 +335,10 @@ __________/  H E R O  /__________
   }
 }
 
-/*               S H I F T               */
+/* 
+____/  S H I F T  /____
+*/
+
 @media only screen and (max-width: 700px) {
   .navbar__logo {
     height: 30px;
@@ -408,5 +436,27 @@ __________/  S E C T I O N  /__________
   .section__heading {
     font-size: 3rem;
     line-height: 60px;
+  }
+}
+
+/* 
+__________/  B  R A N D S  /__________
+*/
+
+@media only screen and (max-width: 1310px) {
+  .brands {
+    padding: 70px 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .brands {
+    padding: 70px 60px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .brands {
+    padding: 70px 30px;
   }
 }
