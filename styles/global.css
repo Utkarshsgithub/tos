@@ -243,6 +243,46 @@ __________/  B  R A N D S  /__________
   font-weight: 500;
 }
 
+/* 
+__________/  B I G  /__________
+*/
+
+.big {
+  padding: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.big__text {
+  width: 490px;
+}
+
+.big__heading {
+  font-size: 6rem;
+  line-height: 105px;
+  letter-spacing: -4px;
+  margin-bottom: 50px;
+}
+
+.big__para {
+  font-weight: 500;
+}
+
+.big__img {
+  width: 400px;
+  height: 400px;
+  background-color: #272b2d;
+  border-radius: 25px;
+  margin-right: 50px;
+}
+
+/* 
+__________/  B  R A N D S  /__________
+*/
+
+
+
 /*
 ------------------------------/  U T I L I T Y  C L A S S E S  /------------------------------
 */
@@ -458,5 +498,95 @@ __________/  B  R A N D S  /__________
 @media only screen and (max-width: 490px) {
   .brands {
     padding: 70px 30px;
+  }
+}
+
+/* 
+__________/  B I G  /__________
+*/
+
+@media only screen and (max-width: 1310px) {
+  .big {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .big__heading {
+    font-size: 4.5rem;
+    line-height: 80px;
+  }
+  .big__text {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .big__text {
+    width: 355px;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .big__heading {
+    font-size: 4rem;
+    line-height: 75px;
+  }
+  .big__img {
+    width: 300px;
+    height: 300px;
+  }  
+}
+
+@media only screen and (max-width: 950px) {
+  .big__text {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .big__heading {
+    font-size: 3.5rem;
+    line-height: 65px;
+  }
+  .big__img {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .big__text {
+    width: 251px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .big {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    padding: 100px;
+  }
+  .big__heading {
+    margin: 50px 0;
+  }
+  .big__text {
+    width: 280px;
+  }
+  .big__img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .big {
+    padding: 100px 60px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .big {
+    padding: 100px 30px;
   }
 }
