@@ -54,6 +54,7 @@ __________/  N A V B A R  /__________
 
 .navbar--scroll {
   background-color: rgb(0, 0, 0, 0.8);
+  box-shadow: rgb(0 0 0 / 13%) 0px 9px 9px -9px;
   padding: 40px var(--lr-padding);
 }
 
@@ -278,10 +279,86 @@ __________/  B I G  /__________
 }
 
 /* 
-__________/  B  R A N D S  /__________
+__________/  C O N N E C T  /__________
 */
 
+.connect {
+  height: 500px;
+  background: url("https://images.unsplash.com/photo-1570834322056-ba3e2994ab85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80") no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+}
 
+/* 
+__________/  S T O R Y  /__________
+*/
+
+.story {
+  padding: 200px;
+  background: url("https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg");
+  background-position: center;
+  display: flex;
+}
+
+.story__heading {
+  font-size: 3rem;
+  margin-top: auto;
+  margin-right: 200px;
+  width: 1100px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.story__content {
+  font-size: 18px;
+  width: 2500px;
+}
+
+.story__para {
+  margin-top: 20px;
+}
+
+/* 
+__________/  T E S T I M O N I A L S  /__________
+*/
+
+.testimonials {
+  padding: 200px;
+}
+
+.testimonials__testimonial {
+  font-size: 18px;
+  text-align: center;
+}
+
+.testimonials__content {
+  margin-bottom: 32px;
+}
+
+/* 
+__________/  F A Q  /___________
+*/
+
+.faq {
+  padding: 100px 200px;
+  background: #242424;
+  letter-spacing: 0.75;
+  line-height: 33px;
+  font-size: 18px;
+}
+
+.faq__q {
+  margin-bottom: 24px;
+  font-weight: bold;
+  opacity: 0.9;
+  letter-spacing: 0.75px;
+}
+
+.faq__a {
+  margin-bottom: 70px;
+  opacity: 0.7;
+  letter-spacing: 0.45px;
+}
 
 /*
 ------------------------------/  U T I L I T Y  C L A S S E S  /------------------------------

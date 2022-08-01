@@ -1,5 +1,7 @@
 // ____________/  N A V B A R  /____________
 
+console.log(window.innerHeight, "X", window.innerWidth)
+
 const menu = document.getElementById('menu');
 const button = document.getElementById('button');
 let menuOpen = false;
@@ -18,6 +20,5 @@ button.addEventListener('click', () => {
 
 window.addEventListener('scroll', function(){
     let navbar = document.getElementById('navbar')
-    console.log(navbar.classList)
     navbar.classList.toggle('navbar--scroll', window.scrollY > 400)
 })
