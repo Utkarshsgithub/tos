@@ -298,20 +298,20 @@ __________/  S T O R Y  /__________
   background: url("https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg");
   background-position: center;
   display: flex;
+  justify-content: space-between;
 }
 
 .story__heading {
   font-size: 3rem;
   margin-top: auto;
-  margin-right: 200px;
-  width: 1100px;
+  width: 275px;
   line-height: 60px;
   font-weight: 600;
 }
 
 .story__content {
   font-size: 18px;
-  width: 2500px;
+  width: 600px;
 }
 
 .story__para {
@@ -665,5 +665,84 @@ __________/  B I G  /__________
 @media only screen and (max-width: 490px) {
   .big {
     padding: 100px 30px;
+  }
+}
+
+/* 
+__________/  S T O R Y  /__________
+*/
+
+@media only screen and (max-width: 1440px) {
+  .story__content {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  .story {
+    padding: 100px;
+  }
+  .story__content {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .story__content {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .story__content {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .story__heading {
+    font-size: 2.3rem;
+    width: 210px;
+    line-height: 45px;
+  }
+  .story__content {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  .story__content {
+    width: 325px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .story {
+    padding: 60px;
+    flex-direction: column;
+  }
+  .story__heading {
+    font-size: 3rem;
+    line-height:45px;
+    margin-bottom: 100px;
+    width: 275px;
+  }
+  .story__content {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .story {
+    padding: 60px 30px;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  .testimonials {
+    padding: 50px;
+  }
+  .faq {
+    padding: 50px;
   }
 }
