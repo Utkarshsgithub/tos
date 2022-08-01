@@ -769,3 +769,25 @@ __________/  T E S T I M O N I A L S  /__________
     padding: 150px 30px;
   }
 }
+
+/* 
+__________/  F A Q  /__________
+*/
+
+@media only screen and (max-width: 1310px) {
+  .faq {
+    padding: 30px 60px;
+    font-size: 12px;
+    letter-spacing: 0.5;
+    line-height: 22px;
+  }
+  .faq__q {
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  .faq {
+    padding: 30px;
+  }
+}
