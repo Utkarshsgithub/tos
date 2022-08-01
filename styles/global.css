@@ -739,10 +739,33 @@ __________/  S T O R Y  /__________
 }
 
 @media only screen and (max-width: 845px) {
-  .testimonials {
-    padding: 50px;
-  }
   .faq {
     padding: 50px;
+  }
+}
+
+/* 
+__________/  T E S T I M O N I A L S  /__________
+*/
+
+@media only screen and (max-width: 1310px) {
+  .testimonials {
+    padding: 200px 100px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .testimonials {
+    padding: 150px 60px;
+  }
+  .testimonials__testimonial {
+    font-size: 15px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .testimonials {
+    padding: 150px 30px;
   }
 }
