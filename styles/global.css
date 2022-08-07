@@ -50,6 +50,7 @@ __________/  N A V B A R  /__________
   width: 100%;
   color: var(--color2);
   letter-spacing: 1px;
+  z-index: 50;
 }
 
 .navbar--scroll {
@@ -88,7 +89,7 @@ __________/  R E S P O N S I V E  N A V B A R  /__________
   height: 100%;
   width: 100%;
   background: var(--color1);
-  z-index: 1;
+  z-index: 50;
   transform: translateX(100%);
   transition: .3s ease-in-out;
   display: flex;
@@ -212,7 +213,7 @@ __________/  S E C T I O N  /__________
 .section__heading {
   font-size: 6rem;
   letter-spacing: -3.5px;
-  line-height: 95px;
+  line-height: 105px;
   font-weight: 600;
 }
 
@@ -273,7 +274,9 @@ __________/  B I G  /__________
 .big__img {
   width: 400px;
   height: 400px;
-  background-color: #272b2d;
+  background: url(niall.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 25px;
   margin-right: 50px;
 }
@@ -305,7 +308,7 @@ __________/  S T O R Y  /__________
   font-size: 3rem;
   margin-top: auto;
   width: 275px;
-  line-height: 60px;
+  line-height: 55px;
   font-weight: 600;
 }
 
@@ -358,6 +361,46 @@ __________/  F A Q  /___________
   margin-bottom: 70px;
   opacity: 0.7;
   letter-spacing: 0.45px;
+}
+
+/* 
+__________/   F O O T E R  /__________
+*/
+
+.footer {
+  padding: 100px 200px;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+}
+
+.footer__top {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  height: 50px;
+}
+
+.footer__bottom {
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  list-style: none;
+}
+
+.footer__link {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.footer__heading {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /*
@@ -789,5 +832,45 @@ __________/  F A Q  /__________
 @media only screen and (max-width: 1310px) {
   .faq {
     padding: 30px;
+  }
+}
+
+/* 
+__________/  F O O T E R  /__________
+*/
+
+@media only screen and (max-width: 1310px) {
+  .footer {
+    padding: 100px 60px;
+    font-size: 12px;
+    letter-spacing: 0.5;
+    /* line-height: 22px; */
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer__top {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  .footer__logo {
+    height: 30px;
+    width: 105.68px;
+    margin-bottom: 25px;
+  }
+  .footer__links {
+    margin-top: 25px;
+  }
+  .footer__bottom {
+    flex-direction: column;
+  }
+  .footer__copyright {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    padding: 70px 30px;
   }
 }
