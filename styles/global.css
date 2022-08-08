@@ -232,7 +232,7 @@ __________/  S E C T I O N  /__________
 }
 
 /* 
-__________/  B  R A N D S  /__________
+__________/  B R A N D S  /__________
 */
 
 .brands {
@@ -243,6 +243,14 @@ __________/  B  R A N D S  /__________
 
 .brands__heading {
   font-weight: 500;
+}
+
+.brands__logos {
+  display: flex;
+}
+
+.brands__logo {
+  height: 50px;
 }
 
 /* 
