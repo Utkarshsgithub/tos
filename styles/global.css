@@ -70,6 +70,22 @@ __________/  N A V B A R  /__________
 .navbar__link {
   margin: 0 10px;
   letter-spacing: 0px;
+  position: relative;
+}
+
+.navbar__link:after {
+  content: "";
+  position: absolute;
+  background: var(--color2);
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0px;
+  transition: 0.2s linear;
+}
+
+.navbar__link:hover:after {
+  width: 100%;
 }
 
 #button {
