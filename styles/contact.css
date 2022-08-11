@@ -1,0 +1,74 @@
+.top {
+  padding: 93px;
+  padding-top: 185px;
+  background: -webkit-radial-gradient(
+    left top,
+    rgb(154, 84, 235),
+    rgb(97, 42, 211)
+  );
+}
+
+.top__heading {
+  font-size: 100px;
+  line-height: 95px;
+  width: 810px;
+  opacity: .9;
+  width: 810px;
+  letter-spacing: -3.3px;
+}
+
+.top__desc {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -0.2px;
+  line-height: 42px;
+  margin-top: 54px;
+  margin-bottom: 70px;
+  max-width: 80%;
+  opacity: 0.75;
+  width: 810px;
+}
+
+.top__button {
+    padding: 25px 65px;
+    font-size: 24px;
+    color: var(--calor2);
+    background: var(--color1);
+    border: none;
+    letter-spacing: 0.69px;
+    border-radius: 40px;
+}
+
+.contact {
+  padding: 200px 93px;
+}
+
+.contact__heading {
+  font-size: 27px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.contact__desc {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+
+.contact__input {
+  opacity: 0.9;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.5px;
+  padding: 17px 13px;
+  border: 1px solid rgb(86, 86, 86);
+  background: rgb(26, 26, 26);
+  border-radius: 6px;
+  margin: 10px;
+  width: 315px;
+  font-family: "Poppins", sans-serif;
+}

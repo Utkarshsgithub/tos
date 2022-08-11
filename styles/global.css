@@ -53,6 +53,13 @@ __________/  N A V B A R  /__________
   z-index: 50;
 }
 
+.navbar--transparent {
+  padding: 25px 93px;
+  background-color: rgb(0, 0, 0, 0.2);
+  box-shadow: rgb(22 21 23 / 10%) 0px 0px 15px 0px;
+  backdrop-filter: blur(20px)
+}
+
 .navbar--scroll {
   background-color: rgb(0, 0, 0, 0.8);
   box-shadow: rgb(0 0 0 / 13%) 0px 9px 9px -9px;
@@ -61,6 +68,10 @@ __________/  N A V B A R  /__________
 
 .navbar__logo {
   height: 50px;
+}
+
+.navbar__logo--transparent {
+  height: 30px;
 }
 
 .navbar__links {
@@ -452,6 +463,13 @@ __________/   F O O T E R  /__________
   letter-spacing: -.5px;
   border: none;
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.button--contact {
+  font-size: 18px;
+  width: 315px;
+  margin-top: 30px;
 }
 
 .button--hero {
