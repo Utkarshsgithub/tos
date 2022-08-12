@@ -408,6 +408,12 @@ __________/   F O O T E R  /__________
   letter-spacing: 0.75px;
 }
 
+.footer--contact {
+  padding: 100px 93px;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+}
+
 .footer__top {
   margin-bottom: 100px;
   display: flex;
