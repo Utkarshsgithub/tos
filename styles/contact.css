@@ -55,7 +55,7 @@
   font-size: 17px;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.5px;
-  line-height: 18px;
+  line-height: 22px;
   margin-bottom: 25px;
 }
 
@@ -71,4 +71,115 @@
   margin: 10px;
   width: 315px;
   font-family: "Poppins", sans-serif;
+}
+
+.strip {
+  padding: 50px 93px;
+  background-color: #1b1a1c;
+}
+
+/*
+------------------------------/  M E D I A   Q U E R R I E S  /------------------------------
+*/
+
+@media only screen and (max-width: 1100px) {
+  .top {
+    padding: 75px 40px;
+    padding-top: 150px;
+  }
+  .top__heading {
+    letter-spacing: -1.2px;
+    font-size: 40px;
+    line-height: 40px;
+    width: 315px;
+  }
+  .top__desc {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin-top: 30px;
+    max-width: 85%;
+    width: 315px;
+    margin-bottom: 0;
+  }
+  .top__button {
+    display: none;
+  }
+  .contact {
+    padding: 90px 40px;
+  }
+  .navbar--transparent {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .footer--contact {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .contact__input {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .contact__input {
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .contact__input {
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .contact__input {
+    width: 210px;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .contact__input {
+    width: 190px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact__heading {
+    font-size: 20px;
+  }
+  .contact__desc {
+    font-size: 14px;
+    line-height: 20px;
+    white-space: pre-line;
+  }
+  .contact__input {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .button--contact {
+    width: 100%;
+  }
+  .strip {
+    padding: 25px 93px;
+  }
+  .navbar__logo--transparent {
+    height: 25px;
+  }
+  .top {
+    padding-top: 145px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .top__heading {
+    width: auto;
+  }
+  .top__desc {
+    width: auto;
+  }
 }

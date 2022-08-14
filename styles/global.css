@@ -503,6 +503,9 @@ __________/  N A V B A R  /__________
   .navbar {
     padding: 60px;
   }
+  .navbar--transparent {
+    padding: 25px 93px;
+  }
 }
 
 /* 
@@ -577,6 +580,9 @@ ____/  S H I F T  /____
 @media only screen and (max-width: 490px) {
   .navbar {
     padding: 60px 30px;
+  }
+  .navbar--transparent {
+    padding: 25px 93px;
   }
   .hero {
     padding: 60px 30px;
