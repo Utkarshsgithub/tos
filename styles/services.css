@@ -1,9 +1,7 @@
 .s-hero {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(17, 13, 13, 0.47) 50%,
-    #212426 100%
-  );
+  background-image: linear-gradient(to bottom,
+      rgba(17, 13, 13, 0.47) 50%,
+      #212426 100%);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 230px 200px 100px 200px;
@@ -20,11 +18,9 @@
 }
 
 .s-hero__desc {
-  background-image: linear-gradient(
-    88.27deg,
-    rgb(234, 130, 97) 10.65%,
-    rgb(201, 159, 96) 92.88%
-  );
+  background-image: linear-gradient(88.27deg,
+      rgb(234, 130, 97) 10.65%,
+      rgb(201, 159, 96) 92.88%);
   font-size: 35px;
   margin-top: 40px;
   -webkit-text-fill-color: transparent;
@@ -44,11 +40,9 @@
   margin-top: 30px;
   inset: 3px 0px 0px 3px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    135deg,
-    rgb(66, 107, 182) 0%,
-    rgb(38, 69, 140) 100%
-  );
+  background-image: linear-gradient(135deg,
+      rgb(66, 107, 182) 0%,
+      rgb(38, 69, 140) 100%);
   box-shadow: rgb(0 0 0 / 30%) 1px 2px 15px 0px,
     rgb(84 115 182) 1px 1px 1px 0px inset,
     rgb(27 59 132) -1px -1px 1px 0px inset;
@@ -78,24 +72,21 @@
 }
 
 .services__img--one {
-  background: url("https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
-    no-repeat;
+  background: url(tedtalk.webp) no-repeat;
   background-size: cover;
   border-radius: 5px;
   background-position: center;
 }
 
 .services__img--two {
-  background: url("https://images.unsplash.com/photo-1506755594592-349d12a7c52a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80")
-    no-repeat;
+  background: url(event.jpeg) no-repeat;
   background-size: cover;
   border-radius: 5px;
   background-position: center;
 }
 
 .services__img--three {
-  background: url("https://images.unsplash.com/photo-1486667970798-b29d1090ff95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
-    no-repeat;
+  background: url("image3.jpeg");
   background-size: cover;
   border-radius: 5px;
   background-position: center;
@@ -112,12 +103,13 @@
   margin-right: 25px;
   margin-bottom: 25px;
 }
+
 .services__card--two {
   margin-right: 25px;
   margin-bottom: 25px;
 }
-.services__card--three {
-}
+
+.services__card--three {}
 
 .services__title {
   font-size: 18px;
@@ -166,14 +158,17 @@
   .s-hero {
     padding: 230px 60px 100px 60px;
   }
+
   .services {
     background-color: #212426;
     padding: 100px 60px;
     padding-bottom: 150px;
   }
+
   .services__cards {
     justify-content: space-between;
   }
+
   .s-hero__heading {
     font-size: 70px;
     line-height: 75px;
@@ -193,11 +188,13 @@
     line-height: 40px;
     width: 420px;
   }
+
   .s-hero__desc {
     font-size: 26px;
     line-height: 30px;
     width: 380px;
   }
+
   .button--services {
     padding: 12px 60px;
     width: 230px;
@@ -214,6 +211,7 @@
   .services__cards {
     flex-direction: column;
   }
+
   .services__card {
     margin-bottom: 50px;
   }
@@ -226,6 +224,7 @@
     letter-spacing: 0.5px;
     width: 375px;
   }
+
   .s-hero__desc {
     font-size: 20px;
     line-height: 22px;
@@ -233,11 +232,13 @@
     width: 310px;
     margin-top: 26px;
   }
+
   .button--services {
     padding: 10px 60px;
     width: 210px;
     font-size: 18px;
   }
+
   .services__heading {
     font-size: 22px;
   }
@@ -247,6 +248,7 @@
   .s-hero {
     padding: 230px 30px 100px 30px;
   }
+
   .services {
     background-color: #212426;
     padding: 60px 30px;
