@@ -1,0 +1,48 @@
+.services__cards--about {
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.services__card--about {
+  text-align: center;
+}
+
+.services__img {
+  height: 400px;
+  width: 325px;
+}
+
+.services__img--about--one {
+  background: url(niall.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+}
+
+.services__img--about--two {
+  background: url(Hugo.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+}
+
+.services__title--about {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.0376472px;
+  color: rgb(255, 255, 255);
+  color: rgb(176, 159, 94);
+  opacity: 0.8;
+  margin-top: 20px;
+  width: 325px;
+}
+
+.connect {
+  height: 500px;
+  background: url("https://images.unsplash.com/photo-1560174038-da43ac74f01b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=857&q=80")
+    no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+}
