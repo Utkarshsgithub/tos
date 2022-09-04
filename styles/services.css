@@ -52,7 +52,7 @@
 .services {
   background-color: #212426;
   padding: 100px 200px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .services__heading {
