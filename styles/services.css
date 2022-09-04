@@ -284,6 +284,7 @@
   .services {
     background-color: #212426;
     padding: 60px 30px;
+    padding-bottom: 0;
   }
 }
 
