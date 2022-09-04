@@ -48,7 +48,7 @@ __________/  N A V B A R  /__________
 .navbar {
   display: flex;
   align-items: center;
-  padding: 60px var(--lr-padding);
+  padding: 30px var(--lr-padding);
   position: fixed;
   top: 0;
   width: 100%;
@@ -67,11 +67,11 @@ __________/  N A V B A R  /__________
 .navbar--scroll {
   background-color: rgb(0, 0, 0, 0.8);
   box-shadow: rgb(0 0 0 / 13%) 0px 9px 9px -9px;
-  padding: 40px var(--lr-padding);
+  padding: 30px var(--lr-padding);
 }
 
 .navbar__logo {
-  height: 30px;
+  height: 70px;
 }
 
 .navbar__logo--transparent {
@@ -510,7 +510,7 @@ __________/  N A V B A R  /__________
 
 @media only screen and (max-width: 1310px) {
   .navbar {
-    padding: 60px;
+    padding: 35px 60px;
   }
   .navbar--transparent {
     padding: 25px 93px;
@@ -561,7 +561,7 @@ ____/  S H I F T  /____
 
 @media only screen and (max-width: 700px) {
   .navbar__logo {
-    height: 30px;
+    height: 60px;
   }
   .hero__heading {
     font-size: 3.5rem;
@@ -588,7 +588,7 @@ ____/  S H I F T  /____
 
 @media only screen and (max-width: 490px) {
   .navbar {
-    padding: 60px 30px;
+    padding: 35px 30px;
   }
   .navbar--transparent {
     padding: 25px 93px;
