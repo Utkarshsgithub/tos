@@ -52,7 +52,7 @@
 .services {
   background-color: #212426;
   padding: 100px 200px;
-  padding-bottom: 0px;
+  padding-bottom: 50px;
 }
 
 .services__heading {
@@ -194,11 +194,11 @@
   .services {
     background-color: #212426;
     padding: 100px 60px;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
   }
 
-  .services__cards {
-    justify-content: space-between;
+  .services--price {
+    padding-bottom: 150px;
   }
 
   .s-hero__heading {
@@ -285,6 +285,10 @@
     background-color: #212426;
     padding: 60px 30px;
     padding-bottom: 0;
+  }
+
+  .services--price {
+    padding-bottom: 50px;
   }
 }
 
