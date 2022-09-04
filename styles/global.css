@@ -274,10 +274,15 @@ __________/  B R A N D S  /__________
 
 .brands__logos {
   display: flex;
+  margin-top: 40px;
 }
 
 .brands__logo {
-  height: 50px;
+  height: 25px;
+}
+
+.brands__logo--one {
+  margin-right: 20px;
 }
 
 /* 
@@ -926,5 +931,11 @@ __________/  F O O T E R  /__________
 @media only screen and (max-width: 500px) {
   .footer {
     padding: 70px 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .brands__logos {
+    margin-top: 30px;
   }
 }
