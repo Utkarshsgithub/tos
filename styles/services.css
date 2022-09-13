@@ -1,7 +1,9 @@
 .s-hero {
-  background-image: linear-gradient(to bottom,
-      rgba(17, 13, 13, 0.47) 50%,
-      #212426 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(17, 13, 13, 0.47) 50%,
+    #212426 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   padding: 230px 200px 100px 200px;
@@ -18,9 +20,11 @@
 }
 
 .s-hero__desc {
-  background-image: linear-gradient(88.27deg,
-      rgb(234, 130, 97) 10.65%,
-      rgb(201, 159, 96) 92.88%);
+  background-image: linear-gradient(
+    88.27deg,
+    rgb(234, 130, 97) 10.65%,
+    rgb(201, 159, 96) 92.88%
+  );
   font-size: 35px;
   margin-top: 40px;
   -webkit-text-fill-color: transparent;
@@ -40,9 +44,11 @@
   margin-top: 30px;
   inset: 3px 0px 0px 3px;
   border-radius: 30px;
-  background-image: linear-gradient(135deg,
-      rgb(66, 107, 182) 0%,
-      rgb(38, 69, 140) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(66, 107, 182) 0%,
+    rgb(38, 69, 140) 100%
+  );
   box-shadow: rgb(0 0 0 / 30%) 1px 2px 15px 0px,
     rgb(84 115 182) 1px 1px 1px 0px inset,
     rgb(27 59 132) -1px -1px 1px 0px inset;
@@ -86,7 +92,7 @@
 }
 
 .services__img--three {
-  background: url("image3.jpeg");
+  background: url("https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
   border-radius: 5px;
   background-position: center;
@@ -100,21 +106,27 @@
 
 .services__card {
   border: 1px solid #b09f5e;
-  padding: 25px;
+  padding: 10px;
   border-radius: 5px;
 }
 
 .services__card--one {
-  margin-right: 25px;
+  margin-right: 10px;
   margin-bottom: 25px;
 }
 
 .services__card--two {
-  margin-right: 25px;
+  margin-right: 15px;
   margin-bottom: 25px;
 }
 
-.services__card--three {}
+.services__card:hover .services__description { 
+  opacity: 0.8;
+}
+
+.services__card:hover .services__title { 
+  opacity: 1;
+}
 
 .services__title {
   font-size: 18px;
@@ -145,7 +157,7 @@
   transition: 0.05 ease;
   border-radius: 5px;
   color: #fff;
-  opacity: .9;
+  opacity: 0.9;
   background-color: rgb(176, 159, 94);
 }
 
@@ -189,6 +201,41 @@
 /*
 ------------------------------/  M E D I A   Q U E R R I E S  /------------------------------
 */
+
+@media only screen and (max-width: 1400px) {
+  .navbar--service {
+    padding: 35px 60px;
+  }
+  .navbar--transparent {
+    padding: 25px 93px;
+  }
+
+  .s-hero {
+    padding: 230px 60px 100px 60px;
+  }
+
+  .services {
+    background-color: #212426;
+    padding: 100px 60px;
+    padding-bottom: 150px;
+  }
+
+  .services--price {
+    padding-bottom: 150px;
+  }
+
+  .s-hero__heading {
+    font-size: 70px;
+    line-height: 75px;
+  }
+
+  .footer--service {
+    padding: 100px 60px;
+    font-size: 12px;
+    letter-spacing: 0.5;
+    /* line-height: 22px; */
+  }
+}
 
 @media only screen and (max-width: 1425px) {
   .services__cards {
@@ -298,6 +345,9 @@
 
   .services--price {
     padding-bottom: 50px;
+  }
+  .navbar--service {
+    padding: 35px 30px;
   }
 }
 
