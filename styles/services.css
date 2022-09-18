@@ -327,6 +327,12 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .footer--service {
+    padding: 70px 30px;
+  }
+}
+
 @media only screen and (max-width: 490px) {
   .s-hero {
     padding: 230px 30px 100px 30px;
