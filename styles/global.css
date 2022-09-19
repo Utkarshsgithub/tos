@@ -430,7 +430,7 @@ __________/   F O O T E R  /__________
 }
 
 .footer__logo {
-  height: 80px;
+  height: 125px;
 }
 
 .footer__bottom {
@@ -516,7 +516,7 @@ __________/  N A V B A R  /__________
     padding: 25px 93px;
   }
   .footer__logo {
-    height: 50px;
+    height: 125px;
   }
 }
 
@@ -920,8 +920,8 @@ __________/  F O O T E R  /__________
     margin-bottom: 25px;
   }
   .footer__logo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 25px;
   }
   .footer__links {
